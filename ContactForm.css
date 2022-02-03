@@ -1,0 +1,56 @@
+.container {
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+#heading {
+  text-align: center;
+}
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="url"] {
+  width: fit-content;
+  padding: 6px;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+input#countrycode {
+  width: 28px;
+}
+
+input[type="submit"] {
+  background-color: rgb(71, 71, 71);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  width: 60%;
+}
+#button {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+fieldset {
+  margin: 20px;
+}
+
+body {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/image-from-rawpixel-id-2044837-jpeg.jpg")
+    center center no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  font-size: 12pt;
+  font-family: "Spartan";
+  color: #2a293e;
+}
