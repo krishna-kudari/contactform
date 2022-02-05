@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="ContactForm.css">
+    
+</head>
+
+<body>
+    
+    <div class="container">
+        
+        <form action="method">
+            <h1 id="heading">
+                Contact Information
+            </h1>
+            <hr>
+            <p>Required fields are marked with '$'</p>
+            <p >$Name: <input type="text" name="name" id="name" placeholder="Fhakruddin Nadaf" required></p>
+            <p>$Mobile Number: <input type="number" name="countrycode" id="countrycode" placeholder="91" ><input type="number" name="mobilenumber" id="mobilenumber" placeholder="4168696966"> $Whatsapp: <input type="number" placeholder="May be same as Mobile Number" name="Whatsappnumber"></p>
+            <p>$Email Address: <input type="email" name="email" id="email" placeholder="aajivan@gmail.com" required></p>
+            <p>Linkedin profile: <input type="url" name="Linkedin Profile" id="profile" placeholder="http://www.linkedin.com/in/aajivan-sajjan-55435351b6"></p>
+            <p>Location:
+                <select name="Location" id="Location" required>
+                    <option value="">__select_on_your_availibility_</option>
+                    <option value="benglore">Bengalore</option>
+                    <option value="benglore">Mumbai</option>
+                    <option value="benglore">Hyderabad</option>
+                    <option value="benglore">Gurgaon</option>
+                    <option value="benglore">Delhi</option>
+                    <option value="benglore">Chennai</option>
+
+                </select>
+            </p>
+            <fieldset>
+             <input type="checkbox" name="marked" id="marked" required>   I agree to send my contact information
+            </fieldset>
+            <div id="button"><input type="submit" value="Submit form"></div>
+            </form>
+    </div>
+
+</body>
+
+</html>
